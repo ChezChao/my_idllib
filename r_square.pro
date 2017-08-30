@@ -1,3 +1,18 @@
+;+
+; :Author: chao
+;-
+;+
+; :Description:
+;    Compute the r^2 between y and yfit.
+;
+; :Params:
+;    y: origin array
+;    yfit: fitted array
+;
+;
+;
+; :Author: chao
+;-
 function r_square,y,yfit
   ;y=double(y)
   ;yfit=double(yfit)
