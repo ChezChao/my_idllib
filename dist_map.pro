@@ -1,3 +1,19 @@
+;+
+; :Description:
+;    Compute distance between two points (lon and lat degrees)
+;    on Mars (can be adapted into Earth application).
+;
+; :Params:
+;    lon0
+;    lat0
+;    lon1
+;    lat1
+;
+; :Keywords:
+;    radians
+;
+; :Author: chao
+;-
 function dist_map,lon0,lat0,lon1,lat1,radians=radians
 
   R=3390000.D ;average radius of Mars (m)
