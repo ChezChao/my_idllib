@@ -1,3 +1,23 @@
+;+
+; :Description:
+;    Plot a array quickly.
+;
+; :Params:
+;    array
+;    x
+;    y
+;
+; :Keywords:
+;    ct
+;    title
+;    xtitle
+;    ytitle
+;    xrange
+;    yrange
+;    hide
+;
+; :Author: chao
+;-
 pro imshow,array,x,y,ct=ct,title=title,xtitle=xtitle,ytitle=ytitle,xrange=xrange,yrange=yrange,hide=hide
 
   if keyword_set(x) then begin
